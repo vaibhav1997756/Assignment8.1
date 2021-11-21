@@ -1,0 +1,48 @@
+.table1,
+tr,
+td {
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 100px;
+}
+
+.table2,
+tr,
+td {
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.table3,
+tr,
+th {
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.main {
+    margin: 15px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(27, 27, 190, 0.877);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(204, 61, 42, 0.89);
+}
+
+tr:nth-child(odd):hover {
+    background-color: salmon;
+}
+
+tr:nth-child(even):hover {
+    background-color: skyblue;
+}
